@@ -18,7 +18,9 @@ class horarioService {
     }
 
     fun save(horario: Horario): Horario {
-        return horarioRepository.save(horario)
+
+            return horarioRepository.save(horario)
+
     }
     fun update (horario: Horario):Horario{
         return horarioRepository.save(horario)

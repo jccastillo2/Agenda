@@ -1,9 +1,7 @@
 package demo.demo.controller
 
 import demo.demo.model.Actividades
-import demo.demo.model.Horario
 import demo.demo.service.actividadesService
-import demo.demo.service.horarioService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.*
 
